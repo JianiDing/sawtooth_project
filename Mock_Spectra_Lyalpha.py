@@ -43,12 +43,12 @@ def main():
 
     #z_redshift = [3.65 for i in range(sample_size)]
     z_redshift = k[i,0]
-    print (z_redshift)
+    
 
 
     z_err = 500/3/10**5*z_redshift
 
-    print (z_err)
+    
 
 
     #call the function of generating redshift
