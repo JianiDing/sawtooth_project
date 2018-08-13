@@ -84,7 +84,7 @@ def z_random(z_obs, sample_size, z_err, wmin, wmax):
 
                 Returns
                 -------
-                Array of observed wavelength and the redshift of the source
+                Array of observed wavelength and the observed and actual redshift of the source
         """
 
     #z = np.linspace(redshifti - bins, redshifti + bins, sample_size)
