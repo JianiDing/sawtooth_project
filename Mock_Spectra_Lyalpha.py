@@ -88,11 +88,13 @@ def z_random(z_obs, sample_size, z_err, wmin, wmax):
         """
 
     #z = np.linspace(redshifti - bins, redshifti + bins, sample_size)
+    #generating actual redshift 
     zactual = []
     zactual = np.random.normal(z_obs, z_err, sample_size)
     # deltaz = np.array(zactual) - np.array(z_redshift)
     model_wave_total_in = []
     model_wave_z_in = []
+    #generate mock wavelength
     for item in np.array(zactual):
         wminz = wmin * (1 + item)
         wmaxz = wmax * (1 + item)
