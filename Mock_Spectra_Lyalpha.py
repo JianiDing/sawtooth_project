@@ -75,8 +75,8 @@ def z_random(z_obs, sample_size, z_err, wmin, wmax):
 
                 Parameters
                 ----------
-                bins : bins for the redshift
-                redshifti: central redshift
+                z_obs : input observed redshift
+                z_err: error for the observed redshift
                 wmin : minimum input rest frame wavelength
                 wmax: maximum input rest frame wavelength
                 sample_size: sample size for mock spectra
