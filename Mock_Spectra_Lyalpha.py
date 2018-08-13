@@ -107,7 +107,8 @@ def stacking_spectrum(mock_wave_total, z_actual, z_obs):
                 Parameters
                 ----------
                 mock_wave_total : input observed wavelength
-                z_r: central redshift
+                z_actual: actual redshift
+                z_obs: observed redshift
 
 
 
